@@ -7,6 +7,7 @@ function Tweet(props){
     <div>
       <h3>{props.user} - {props.time}</h3>
       <p><em>{props.tweet}</em></p>
+      <button>❤️</button>
     </div>
 
   );
@@ -16,7 +17,8 @@ function Tweet(props){
 Tweet.propTypes = {
   user: PropTypes.string,
   time: PropTypes.string,
-  tweet: PropTypes.string
+  tweet: PropTypes.string,
+
 };
 
 

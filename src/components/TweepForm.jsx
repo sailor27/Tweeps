@@ -15,6 +15,7 @@ function TweepForm(props){
     _user.value = '';
     _time.value = '';
     _tweet.value = '';
+
   }
 
   return(
@@ -43,6 +44,7 @@ function TweepForm(props){
 }
 
 TweepForm.propTypes = {
+  onTweepButtonPress: PropTypes.func,
   onNewTweep: PropTypes.func
 };
 

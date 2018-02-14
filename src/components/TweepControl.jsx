@@ -13,9 +13,10 @@ class TweepControl extends React.Component {
   }
 
   handleTweepButtonPress() {
-
     this.setState({tweepFormVisibleOnPage: true});
   }
+
+
 
   render() {
     let currentlyVisibleContent = null;
